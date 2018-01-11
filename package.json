@@ -1,0 +1,21 @@
+{
+    "name": "node_web",
+    "description": "only test",
+    "version": "1.0.0",
+    "main": "app.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dyegoe/node_web.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dyegoe/node_web/issues"
+    },
+    "homepage": "https://github.com/dyegoe/node_web",
+    "dependencies": {
+        "express": "^4.16.2"
+    },
+    "scripts": {"start": "node app.js"}
+  }
