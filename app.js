@@ -1,8 +1,13 @@
 var express = require('express');
 var app = express();
+var os = require('os');
+
+app.get('/health', function (req, res) {
+  res.send('OK');
+});
 
 app.get('/', function (req, res) {
-  res.send('node web');
+  res.send('[WEB]: ' + os.hostname());
 });
 
 app.listen(3000, function () {
